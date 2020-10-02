@@ -30,6 +30,8 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/selectBtn"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -53,13 +55,12 @@
         android:layout_width="116dp"
         android:layout_height="52dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="24dp"
         android:background="@android:color/holo_blue_light"
         android:text="detect"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@+id/selectBtn"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
@@ -67,13 +68,12 @@
         android:layout_width="116dp"
         android:layout_height="52dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="24dp"
         android:background="@color/colorPrimary"
         android:text="@string/upload"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@+id/snapBtn"
         app:layout_constraintEnd_toStartOf="@+id/detectBtn" />
 
     <TextView
