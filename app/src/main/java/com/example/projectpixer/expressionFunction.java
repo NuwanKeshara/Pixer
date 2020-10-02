@@ -105,6 +105,7 @@ public class expressionFunction extends AppCompatActivity {
         snapBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 dispatchTakePictureIntent();
             }
         });
@@ -119,6 +120,7 @@ public class expressionFunction extends AppCompatActivity {
         selectBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 selectImage();
             }
         });
