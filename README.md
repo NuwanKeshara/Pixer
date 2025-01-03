@@ -7,8 +7,8 @@ Project-Pixer is an Android application leveraging Google’s Machine Learning A
 
 ## **Features**  
 - 📷 **Object Detection**: Identify objects within images effortlessly.  
-- 😊 **Face Detection**: Identify the number of faces in the image.  
-- 😊 **Facial Expression Recognition**: Detect faces and analyze facial expressions.  
+- 🙂 **Face Detection**: Identify the number of faces in the image.  
+- 😁 **Facial Expression Recognition**: Detect faces and analyze facial expressions.  
 - 📝 **Text Identification**: Extract and copy text directly from images.
 
 ---
